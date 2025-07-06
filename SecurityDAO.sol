@@ -3,7 +3,7 @@ pragma solidity ^0.4.11;
 contract StakePool
 {
     function getWeight(address _staker) constant returns (uint256);
-    function totalVotingWeight() constant returns (uint256);
+        function totalVotingWeight() constant returns (uint256);    function totalVotingWeight() constant returns (uint256);## vote_manager    function totalVotingWeight() constant returns (uint256);
 }
 
 contract SecurityDAO {
